@@ -622,3 +622,19 @@ textarea:focus {
     height: 31px;
   }
 }
+
+.credentials-logos {
+  display: grid;
+  gap: 28px;
+  justify-items: center;
+  align-items: center;
+}
+
+.credentials-logos img {
+  max-width: 210px;
+  height: auto;
+}
+
+.credentials-logos img + img {
+  max-width: 170px;
+}
